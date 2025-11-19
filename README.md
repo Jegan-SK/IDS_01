@@ -111,11 +111,11 @@ STEP 6: Use zscore of to remove outliers
 
     sns.boxplot(data=df["num_episodes"]) #after removing outliers
 
-<img width="1380" height="540" alt="image" src="https://github.com/user-attachments/assets/806ef627-9bba-403b-a707-2ff4e00e0ded" />    >>
+<img width="1380" height="540" alt="image" src="https://github.com/user-attachments/assets/806ef627-9bba-403b-a707-2ff4e00e0ded" />    
             
             
             
-                >>
+                
 
 # Result
  Thus the program to read the given data and perform data cleaning and save the cleaned data to a file and removing outliers using IQR method and Z-score method is written and executed successfully.
