@@ -40,6 +40,22 @@ STEP 6: Use zscore of to remove outliers
 
 <img width="525" height="231" alt="Screenshot (75)(1)" src="https://github.com/user-attachments/assets/f183feab-8723-48fe-bd36-bdf0839168d0" />
 
+    df.fillna(0)
+
+<img width="1021" height="693" alt="image" src="https://github.com/user-attachments/assets/83eba9cb-19b0-4ce7-bd58-73e2456053db" />
+
+    df.fillna(method="ffill")
+
+<img width="1083" height="697" alt="image" src="https://github.com/user-attachments/assets/37a84f81-26bf-452c-9e6f-9c6e7c4c898a" />
+
+    f.fillna(method="bfill")
+
+<img width="1056" height="689" alt="image" src="https://github.com/user-attachments/assets/88790f9f-c895-4fce-8a00-9a818288be00" />
+
+    df["TOTAL"].fillna(df["TOTAL"].mean())
+
+<img width="1064" height="686" alt="image" src="https://github.com/user-attachments/assets/fb4d6091-29bb-4882-a21f-7851e04626bc" />
+
     df.dropna(axis=0,inplace=True)
 
 <img width="1328" height="613" alt="image" src="https://github.com/user-attachments/assets/af62fa3a-00f6-4676-878c-451816ac7ad3" />
